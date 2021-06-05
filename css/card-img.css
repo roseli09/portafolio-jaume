@@ -1,0 +1,21 @@
+.card-img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 64px;
+   height: 64px;
+}
+
+@media screen and (min-width: 768px) {
+    .card-img{
+        width: 74px;
+        height: 74px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .card-img{
+        width: 80px;
+        height: 80px;
+    }
+}

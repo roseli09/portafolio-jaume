@@ -1,0 +1,29 @@
+
+.comment{
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 40px 16px; ;
+    text-align: center;  
+}
+
+
+@media screen and (min-width: 768px) {
+    .comment {
+        padding:50px 73px; 
+    }
+} 
+
+@media screen and (min-width: 900px) {
+    .comment {
+        padding: 100px 133px;
+    }
+} 
+
+ @media  screen and (min-width: 1024px) {
+    .comment {
+        padding: 200px 233px;
+    }
+} 

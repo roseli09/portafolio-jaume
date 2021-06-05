@@ -1,0 +1,21 @@
+.card-coment{
+
+   background-color: rgba(255, 255, 255, 0.2);
+   backdrop-filter: blur(40px);
+   border-style: outset;
+   border-color: rgba(255, 255, 255, 0.398); 
+   border-right-width: 0px;
+   border-bottom-width: 0px;
+   border-radius: 24px;
+
+   gap: 24px;
+   padding: 24px;
+
+}
+
+
+@media screen and (min-width: 1024px){
+   .card-coment{
+      padding: 80px;
+   }
+}
